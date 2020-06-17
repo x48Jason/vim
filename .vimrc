@@ -10,6 +10,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'lfv89/vim-interestingwords'
 
 Plug 'x48Jason/kernel-cscope.vim'
+Plug 'x48Jason/autotab.vim'
 
 call plug#end()
 
