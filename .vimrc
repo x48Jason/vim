@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 
 Plug 'preservim/nerdtree'
+Plug 'tpope/vim-fugitive'
 
 Plug 'skywind3000/vim-preview'
 Plug 'skywind3000/vim-terminal-help'
@@ -47,6 +48,9 @@ nnoremap <leader>s :let @/ = ""<cr>
 set number
 set relativenumber
 "set cscopetag
+set csto=0
+
+set tags=tags;,tags
 
 nnoremap <silent> <TAB> :SwitchNextWindow<cr>
 
@@ -60,3 +64,4 @@ noremap <m-UP> :PreviewScrollOneLine -1<cr>
 noremap <m-DOWN> :PreviewScrollOneLine +1<cr>
 
 nnoremap <F4> :CscopeFind 
+nnoremap <leader>q :cclose<cr>
