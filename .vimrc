@@ -50,6 +50,7 @@ set number
 set relativenumber
 "set cscopetag
 set csto=0
+set nowrap
 
 set tags=tags;,tags
 
