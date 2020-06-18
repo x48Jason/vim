@@ -65,4 +65,7 @@ noremap <m-UP> :PreviewScrollOneLine -1<cr>
 noremap <m-DOWN> :PreviewScrollOneLine +1<cr>
 
 nnoremap <F4> :CscopeFind 
+nnoremap <leader>s :CscopeFind s
+nnoremap <leader>g :CscopeFind g
+nnoremap <leader>f :CscopeFind f
 nnoremap <leader>q :cclose<cr>
